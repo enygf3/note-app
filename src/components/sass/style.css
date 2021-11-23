@@ -1,0 +1,69 @@
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #3D3D3D;
+}
+
+.wrapper {
+  width: 600px;
+  min-height: 400px;
+  margin-top: 150px;
+  border-radius: 15px;
+  background-color: #4B4B4B;
+  position: relative;
+}
+
+.wrapper-filters {
+  width: 500px;
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper-make__note {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.wrapper-make__note input {
+  background-color: #3D3D3D;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  padding-left: 15px;
+  line-height: 24px;
+  font-size: 18px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
